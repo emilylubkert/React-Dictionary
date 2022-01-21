@@ -1,0 +1,17 @@
+.def-container {
+    display: flex;
+    justify-content: center;
+}
+
+.img-container {
+    width: 100%;
+    align-items: center;
+    background-color: #c1fefb;
+}
+.card-image {
+    display: block;
+    max-width:300px;
+    width: auto;
+    height: auto;
+    margin: auto;
+}

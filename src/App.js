@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import FindWords from "./components/FindWords";
+import ".//styles/App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2 className="App-header">
+        Owlbot Dictionary
+      </h2>
+      <p>
+        Welcome to my simple React dictionary. This app uses the <a href="https://owlbot.info/" target="_blank" rel="noopener noreferrer">Owlbot</a> API to get definitions with images (if available). To use, simply type in a word and click the button or hit Enter.</p>
+      <FindWords></FindWords>
     </div>
   );
 }
